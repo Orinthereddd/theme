@@ -162,31 +162,6 @@
     --background-modifier-active: transparent;
 }
 
-/* THANK YOU URI FOR HELPING ME UPDATE THIS <3 */
-.keyboardShortcutList_f061f6 > :nth-child(2) ~ :last-child:after {
-    margin-top: 10px;
-    margin-bottom: -3px;
-    padding-top: 10px;
-    padding-left: 10px;
-    left: 20%;
-    margin-left: -5px;
-    position: absolute;
-    display: block;
-    background: linear-gradient(to top, var(--Main-Colour), var(--Secondary-Main-Colour));
-    border: 1px solid var(--Main-Colour);
-    border-radius: 5px;
-    content: var(--ChangelogSize) var(--Theme-Variant)", " var(--Update-Text);
-    text-align: center;
-    animation: UploaderBG 10s infinite linear;
-    z-index: 9997;
-    color: var(--Main-Colour);
-    width: 50%;
-    -webkit-mask: var(--Changelog);
-    -webkit-mask-repeat: no-repeat;
-    mask: var(--Changelog);
-    mask-repeat: no-repeat;
-    background-size: 100% 100% !important;
-}
 
 /* THANK YOU URI FOR HELPING ME UPDATE THIS <3 */
 body:before {
